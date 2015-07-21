@@ -1,0 +1,3 @@
+[submodule "bt-unity-game/Assets/Plugins/dt-unity-library"]
+	path = bt-unity-game/Assets/Plugins/dt-unity-library
+	url = https://github.com/DarrenTsung/dt-unity-library.git
