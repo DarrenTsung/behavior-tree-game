@@ -1,9 +1,13 @@
 fileFormatVersion: 2
 guid: 34b4c2a2230404a44b1f0108383ff202
-timeCreated: 1437492361
+timeCreated: 1437846992
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Human@Body
+    21300002: Human@LeftArm
+    21300004: Human@RightArm
+    21300006: Human@Pistol
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -37,7 +41,7 @@ TextureImporter:
   lightmap: 0
   rGBM: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -48,7 +52,47 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: Human@Body
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 0
+        width: 50
+        height: 97
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Human@LeftArm
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 26
+        width: 9
+        height: 52
+      alignment: 9
+      pivot: {x: .5, y: .100000001}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Human@RightArm
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 26
+        width: 9
+        height: 52
+      alignment: 9
+      pivot: {x: .5, y: .100000001}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Human@Pistol
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 4
+        width: 24
+        height: 16
+      alignment: 9
+      pivot: {x: .150000006, y: .50000006}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
   assetBundleName: 
